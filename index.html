@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    body {
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    }
+    .left{
+        display:inline-block;
+        position:absolute;
+        top:20px;
+        left:34px;
+
+    }
+    .mid{
+        display:block;
+        width:35%;
+        margin:20px auto;
+    }
+    .right{
+        display:inline-block;
+        position:absolute;
+        top:20px;
+        right:34px;
+    }
+    .navbar{
+        display:inline-block;
+
+    }
+    .navbar li{
+        display:inline-block;
+        list-style: none;
+        font-size:18px;
+
+    }
+    .navbar li a{
+        text-decoration: none;
+        color:white;
+        padding:34px 18px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color:grey;
+    }
+    .left img{
+        width:44px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin:0px 9px;
+        background-color: black;
+        color:white;
+        padding:4px 14px;
+        border:2px solid grey;
+        border-radius: 10px;
+       cursor:pointer;
+    }
+    .btn:hover{
+        background-color:grey;
+    }
+    .container{
+        border:2px solid white;
+        margin:106px 80px;
+        padding:75px;
+        border-radius:28px;
+        width:30%;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .form-group input{
+        text-align: center;
+        display:block;
+        width:345px;
+        padding:1px;
+        border:2px solid black;
+        margin:9px auto;
+        font-size:20px;
+        border-radius: 5px;
+    }
+    .container button{
+       display:block;
+       width:23%;
+       margin:auto;
+    }
+</style>
+
+<body>
+<header class="header">
+    <div class="left">
+       <img src="https://static.vecteezy.com/system/resources/previews/011/162/083/original/fitness-sport-gym-logo-design-vector.jpg" alt="">
+       <div>Ravi Fitness</div>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+       <button class="btn">Call Us Now</button>
+       <button class="btn">Email Us</button>
+    </div>
+</header>
+<div class="container">
+    <h1>Join the best gym of Bihar now</h1>
+    <form>
+    <div class="form-group">
+        <input type="text" name="myName" placeholder="Enter your Name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="myName" placeholder="Enter your Age">
+    </div>
+    <div class="form-group">
+        <input type="text" name="myName" placeholder="Enter your Gender">
+    </div>
+    <div class="form-group">
+        <input type="text" name="myName" placeholder="Enter your Locality">
+    </div>
+    <div class="form-group">
+        <input type="text" name="myName" placeholder="Enter your Phone no.">
+    </div>
+    <div class="form-group">
+        <input email="text" name="myName" placeholder="Enter your EmailId">
+    </div>
+    <button class="btn">Submit</button>
+</form>
+</div>
+</body>
+
+</html>
